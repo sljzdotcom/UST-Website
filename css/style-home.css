@@ -462,7 +462,7 @@ blockquote {
 
 .top-shadow {
 	position:absolute;
-	background:url(images/top-shadow.png) repeat-x scroll 0 0;
+	background:url(../images/top-shadow.png) repeat-x scroll 0 0;
 	height:4px;
 	width:100%;
 	z-index:100;
@@ -471,7 +471,7 @@ blockquote {
 
 .bottom-shadow {
 	position:absolute;
-	background:url(images/bottom-shadow.png) repeat-x scroll 0 0;
+	background:url(../images/bottom-shadow.png) repeat-x scroll 0 0;
 	height:4px;
 	width:100%;
 	top:176px;
@@ -533,7 +533,7 @@ ul#mainnav li {
 }
 
 ul#mainnav > li {
-	background:url(images/nav-bg.png) no-repeat scroll right center;
+	background:url(../images/nav-bg.png) no-repeat scroll right center;
 }
 
 ul#mainnav > li.prev-item, ul#mainnav > li.previ-item {
@@ -778,61 +778,61 @@ ul#mainnav li ul li a:hover, ul#mainnav li ul li ul li a:hover {
 }
 
 .page-title .page-background .pattern1 {
-	background:url(images/bg/bg1.png) repeat scroll 0 0;
+	background:url(../images/bg/bg1.png) repeat scroll 0 0;
 	height:180px;
 }
 
 
 .page-title .page-background .pattern2 {
-	background:url(images/bg/bg2.png) repeat scroll 0 0;
+	background:url(../images/bg/bg2.png) repeat scroll 0 0;
 	height:180px;
 }
 
 
 .page-title .page-background .pattern3{
-	background:url(images/bg/bg3.png) repeat scroll 0 0;
+	background:url(../images/bg/bg3.png) repeat scroll 0 0;
 	height:180px;
 }
 
 
 .page-title .page-background .pattern4 {
-	background:url(images/bg/bg4.png) repeat scroll 0 0;
+	background:url(../images/bg/bg4.png) repeat scroll 0 0;
 	height:180px;
 }
 
 
 .page-title .page-background .pattern5 {
-	background:url(images/bg/bg5.png) repeat scroll 0 0;
+	background:url(../images/bg/bg5.png) repeat scroll 0 0;
 	height:180px;
 }
 
 
 .page-title .page-background .pattern6 {
-	background:url(images/bg/bg6.png) repeat scroll 0 0;
+	background:url(../images/bg/bg6.png) repeat scroll 0 0;
 	height:180px;
 }
 
 
 .page-title .page-background .pattern7 {
-	background:url(images/bg/bg7.png) repeat scroll 0 0;
+	background:url(../images/bg/bg7.png) repeat scroll 0 0;
 	height:180px;
 }
 
 
 .page-title .page-background .pattern8 {
-	background:url(images/bg/bg8.png) repeat scroll 0 0;
+	background:url(../images/bg/bg8.png) repeat scroll 0 0;
 	height:180px;
 }
 
 
 .page-title .page-background .pattern9 {
-	background:url(images/bg/bg1.png) repeat scroll 0 0;
+	background:url(../images/bg/bg1.png) repeat scroll 0 0;
 	height:180px;
 }
 
 
 .page-title .page-background .pattern10 {
-	background:url(images/bg/bg10.png) repeat scroll 0 0;
+	background:url(../images/bg/bg10.png) repeat scroll 0 0;
 	height:180px;
 }
 
@@ -866,7 +866,7 @@ ul#mainnav li ul li a:hover, ul#mainnav li ul li ul li a:hover {
 }
 
 .search-form  input[type="submit"] {
-	background:url(images/search.png) scroll 0 0;
+	background:url(../images/search.png) scroll 0 0;
 	width:16px;
 	height:16px;
 	border:0 none;
@@ -1091,7 +1091,7 @@ h3.service {
 }
 
 .testimonial-pin {
-	background:url(images/testimonial-pin.png) no-repeat scroll 0 0;
+	background:url(../images/testimonial-pin.png) no-repeat scroll 0 0;
 	display: block;
 	width: 24px;
 	height: 16px;
@@ -1469,7 +1469,7 @@ a[rel="PrettyPhoto"] {
     width: 23px;
     height: 25px;
     cursor: pointer;
-    background: #f7f7f7 url(images/carousel-arrows.png) no-repeat 0 0;
+    background: #f7f7f7 url(../images/carousel-arrows.png) no-repeat 0 0;
 }
 
 .jcarousel-next-horizontal:hover,
@@ -1497,7 +1497,7 @@ a[rel="PrettyPhoto"] {
     width: 23px;
     height: 25px;
     cursor: pointer;
-    background: #f7f7f7 url(images/carousel-arrows.png) no-repeat 0 -26px;		
+    background: #f7f7f7 url(../images/carousel-arrows.png) no-repeat 0 -26px;		
 }
 
 .jcarousel-prev-horizontal:hover, 
@@ -1546,7 +1546,7 @@ span.item-on-hover, .grid-item-on-hover {
 	position: absolute; 
 	width: 100%; 
 	height: 100%; 
-	background: url(images/item-on-hover.png) repeat; 
+	background: url(../images/item-on-hover.png) repeat; 
 }
 
 span.item-on-hover-white {
@@ -1557,7 +1557,7 @@ span.item-on-hover-white {
 	position: absolute; 
 	width: 100%; 
 	height: 100%; 
-	background: url(images/item-on-hover-white.png) repeat; 
+	background: url(../images/item-on-hover-white.png) repeat; 
 }
 
 .portfolio img {
@@ -1766,7 +1766,7 @@ span.hover-video {
 }
 
 .featured-sidebar ul li.selected {	
-	background: url(images/featured-arrow.png) no-repeat scroll 200px center;
+	background: url(../images/featured-arrow.png) no-repeat scroll 200px center;
 	width: 210px;
 }
 
@@ -2271,16 +2271,16 @@ h1.post-title {
 }
 
 .meta span.post-date {
-	background:url(images/calendar.png) no-repeat scroll 0 3px;
+	background:url(../images/calendar.png) no-repeat scroll 0 3px;
 	color:#C7C7C7;
 }	
 
 .meta span.post-author {
-	background:url(images/author.png) no-repeat scroll 0 3px;
+	background:url(../images/author.png) no-repeat scroll 0 3px;
 }	
 
 .meta span.post-comment {
-	background:url(images/comment.png) no-repeat scroll 0 4px;
+	background:url(../images/comment.png) no-repeat scroll 0 4px;
 }	
 
 .meta p {
@@ -2751,15 +2751,15 @@ ul#blog-widget li:last-child {
 }
 
 li.address {
-	background:url(images/address.png) no-repeat scroll 0 2px;
+	background:url(../images/address.png) no-repeat scroll 0 2px;
 }
 
 li.phone {
-	background:url(images/phone.png) no-repeat scroll 0 2px;
+	background:url(../images/phone.png) no-repeat scroll 0 2px;
 }
 
 li.email {
-	background:url(images/email.png) no-repeat scroll 0 2px;
+	background:url(../images/email.png) no-repeat scroll 0 2px;
 }
 
 #footer a {
@@ -2789,7 +2789,7 @@ li.email {
 }
 
 .totop {
-	background:url(images/top.png) no-repeat scroll 0 0;
+	background:url(../images/top.png) no-repeat scroll 0 0;
 	width:37px;
 	height:42px;
 	position:absolute;
@@ -2824,7 +2824,7 @@ li.email {
 	overflow-x: hidden;
 	list-style-type: none;
 	border-bottom:1px solid #efefef;
-	background: url(images/social/twitter.png) no-repeat scroll 0 3px;
+	background: url(../images/social/twitter.png) no-repeat scroll 0 3px;
 	padding-left: 30px;
 }
 
@@ -2921,73 +2921,73 @@ ul#social li a:hover {
 }
 
 a.forrst {
-	background:url(images/social/forrst.png) no-repeat scroll center center;
+	background:url(../images/social/forrst.png) no-repeat scroll center center;
 }
 a.forrst:hover {
 	background-color:#5d9b68;
 }
 a.dribbble {
-	background:url(images/social/dribbble.png) no-repeat scroll center center;
+	background:url(../images/social/dribbble.png) no-repeat scroll center center;
 }
 a.dribbble:hover {
 	background-color:#e24a85;
 }
 a.vimeo {
-	background:url(images/social/vimeo.png) no-repeat scroll center center;
+	background:url(../images/social/vimeo.png) no-repeat scroll center center;
 }
 a.vimeo:hover {
 	background-color:#1bb7ea;
 }
 a.linkedin {
-	background:url(images/social/linkedin.png) no-repeat scroll center center;
+	background:url(../images/social/linkedin.png) no-repeat scroll center center;
 }
 a.linkedin:hover {
 	background-color:#007bb6;
 }
 a.google {
-	background:url(images/social/google.png) no-repeat scroll center center;
+	background:url(../images/social/google.png) no-repeat scroll center center;
 }
 a.google:hover {
 	background-color:#e1472f;
 }
 a.skype {
-	background:url(images/social/skype.png) no-repeat scroll center center;
+	background:url(../images/social/skype.png) no-repeat scroll center center;
 }
 a.skype:hover {
 	background-color:#0cb1f1;
 }
 a.facebook {
-	background:url(images/social/facebook.png) no-repeat scroll center center;
+	background:url(../images/social/facebook.png) no-repeat scroll center center;
 }
 a.facebook:hover {
 	background-color:#3b5998;
 }
 a.twitter {
-	background:url(images/social/twitter.png) no-repeat scroll center center;
+	background:url(../images/social/twitter.png) no-repeat scroll center center;
 }
 a.twitter:hover {
 	background-color:#00acee;
 }
 a.flickr {
-	background:url(images/social/flickr.png) no-repeat scroll center center;
+	background:url(../images/social/flickr.png) no-repeat scroll center center;
 }
 a.flickr:hover {
 	background-color:#ff0084;
 }
 a.rss {
-	background:url(images/social/rss.png) no-repeat scroll center center;
+	background:url(../images/social/rss.png) no-repeat scroll center center;
 }
 a.rss:hover {
 	background-color:#f28d34;
 }
 a.stumbleupon {
-	background:url(images/social/stumbleupon.png) no-repeat scroll center center;
+	background:url(../images/social/stumbleupon.png) no-repeat scroll center center;
 }
 a.stumbleupon:hover {
 	background-color:#0fb73d;
 }
 a.youtube {
-	background:url(images/social/youtube.png) no-repeat scroll center center;
+	background:url(../images/social/youtube.png) no-repeat scroll center center;
 }
 a.youtube:hover {
 	background-color:#d93030;

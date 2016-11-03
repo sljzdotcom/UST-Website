@@ -1,5 +1,5 @@
 .logo a {
-	background:url(../../images/logos.png) no-repeat scroll 0 -105px;
+	background:url(../../../images/logos.png) no-repeat scroll 0 -105px;
 	width:180px;
 	height:35px;
 	text-indent:-9999px;
@@ -8,7 +8,7 @@
 	position:relative;
 }
 .footer-logo {
-	background:url(../../images/logos.png) no-repeat scroll -180px -105px;
+	background:url(../../../images/logos.png) no-repeat scroll -180px -105px;
 	width:180px;
 	height:35px;
 	text-indent:-9999px;
@@ -74,15 +74,15 @@ ul#mainnav li a:hover, ul#mainnav li a:active, ul#mainnav li a.current {
 }
 
 span.hover-link {
-	background:#21748C url(../../images/link.png) no-repeat scroll center center;	
+	background:#21748C url(../../../images/link.png) no-repeat scroll center center;	
 }
 
 span.hover-image {
-	background: #21748C url(../../images/lightbox.png) no-repeat scroll center center;
+	background: #21748C url(../../../images/lightbox.png) no-repeat scroll center center;
 }
 
 span.hover-video {
-	background:#21748C url(../../images/video.png) no-repeat scroll center center;
+	background:#21748C url(../../../images/video.png) no-repeat scroll center center;
 }
 
 .tags ul li a:hover {
@@ -110,27 +110,27 @@ ul#home-filters li a.selected, ul#home-filters li a:hover {
 }
 
 .portfolio-nav a.prev-project {
-	background:#efefef url(../../images/portfolio-arrows.png) scroll 0 0;
+	background:#efefef url(../../../images/portfolio-arrows.png) scroll 0 0;
 }
 
 .portfolio-nav a.prev-project:hover {
-	background:#21748C url(../../images/portfolio-arrows.png) scroll 0 -25px;
+	background:#21748C url(../../../images/portfolio-arrows.png) scroll 0 -25px;
 }
 
 .portfolio-nav a.close-project {
-	background:#efefef url(../../images/portfolio-arrows.png) scroll -23px 0;
+	background:#efefef url(../../../images/portfolio-arrows.png) scroll -23px 0;
 }
 
 .portfolio-nav a.close-project:hover {
-	background:#21748C url(../../images/portfolio-arrows.png) scroll -23px -25px;
+	background:#21748C url(../../../images/portfolio-arrows.png) scroll -23px -25px;
 }
 
 .portfolio-nav a.next-project {
-	background:#efefef url(../../images/portfolio-arrows.png) scroll -46px 0;
+	background:#efefef url(../../../images/portfolio-arrows.png) scroll -46px 0;
 }
 
 .portfolio-nav a.next-project:hover {
-	background:#21748C url(../../images/portfolio-arrows.png) scroll -46px -25px;
+	background:#21748C url(../../../images/portfolio-arrows.png) scroll -46px -25px;
 }
 
 
@@ -249,13 +249,13 @@ span.current {
 }
 
 .toggle-plus {
-	background:#7b7b7b url(../../images/plus.png) no-repeat scroll 0 0;
+	background:#7b7b7b url(../../../images/plus.png) no-repeat scroll 0 0;
 	width:21px;
 	height:21px;
 }
 
 .toggle-minus {
-	background:#21748C url(../../images/minus.png) no-repeat scroll 0 0;
+	background:#21748C url(../../../images/minus.png) no-repeat scroll 0 0;
 	width:21px;
 	height:21px;
 }
