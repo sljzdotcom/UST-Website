@@ -459,7 +459,6 @@ blockquote {
 	position:relative;
 	z-index:4000;
 }
-
 .top-shadow {
 	position:absolute;
 	background:url(../images/top-shadow.png) repeat-x scroll 0 0;
@@ -545,12 +544,12 @@ ul#mainnav > li:last-child {
 }
 
 ul#mainnav li a {
-	font: 13px/20px 'Open Sans', Open Sans, Helvetica, Arial, sans-serif;
+	font: 15px '微软雅黑','Microsoft Yahei',Verdana,'Open Sans', Open Sans, Helvetica, Arial, sans-serif;
 	position:relative;
 	font-weight:600;
 	color:#686868;
 	margin:0;
-	padding:0 20px;
+	padding:0 18px;
 	height:86px;
 	line-height:86px;
 	display:inline-block;
@@ -576,7 +575,7 @@ ul#mainnav li a.sf-with-ul:hover, ul#mainnav li a.sf-with-ul:active {
 }
 
 ul#mainnav li ul li a.sf-with-ul:hover, ul#mainnav li ul li a.sf-with-ul:active {
-	background:#444;
+	background:#22607b;
 	color:#fff;
 
 }
@@ -586,12 +585,12 @@ ul#mainnav li a:hover, ul#mainnav li a:active, ul#mainnav li a.current {
 }
 
 ul#mainnav li ul li a.current {
-	color:#444;
+	color:#22607b;
 	background:#fff;
 }
 ul#mainnav li ul li a.current:hover {
 	color:#fff;
-	background:#444;
+	background:#22607b;
 }
 
 ul#mainnav li ul li {
@@ -613,7 +612,7 @@ ul#mainnav li ul li a, ul#mainnav li ul li ul li a, ul#mainnav li ul li a:visite
 	border-left:1px solid #ebebeb;	
 	z-index:1100;
 	position:relative;
-	font-size:11px !important;
+	font-size:14px !important;
 	text-transform:uppercase;
 }
 
@@ -627,11 +626,11 @@ ul#mainnav li ul li a, ul#mainnav li ul li ul li a, ul#mainnav li ul li a:visite
 }
 
 ul#mainnav li ul li a:hover, ul#mainnav li ul li ul li a:hover {
-	background:#444;
+	background:#22607b;
 	color:#fff;
 	margin-bottom:0px;
-	border-bottom:1px solid #444;
-	border-left:1px solid #444;
+	border-bottom:1px solid #22607b;
+	border-left:1px solid #22607b;
 }
 
 
@@ -954,7 +953,7 @@ h3.service {
 	border-bottom:1px solid #efefef;
 }
 .bgtitle h2, .homepage-clients h2 {
-	font-size: 13px;
+	font-size: 18px;
 	font-weight: 600;
 	float: left;
 	height: 26px;
@@ -1189,7 +1188,7 @@ h3.service {
 	width:100% !important;
 	position:relative;
 	padding:0;
-	max-height:450px !important;
+	max-height:600px !important;
 	overflow:hidden;
 }
 
@@ -1356,7 +1355,7 @@ h3.service {
 
 .jcarousel-item h3 {
 	text-transform:uppercase;
-	font-size:12px;
+	font-size:16px;
 	font-weight:600;
 	padding:20px 0 2px;
 	margin:0;
@@ -1417,7 +1416,7 @@ a[rel="PrettyPhoto"] {
 	padding:0 10px;
 	height:21px;
 	background:#f5f5f5;
-	font-size:11px;
+	font-size:13px;
 	line-height:21px;
 	display:inline-block;
 }
@@ -1435,7 +1434,9 @@ a[rel="PrettyPhoto"] {
 	color:#fff;
 	line-height:21px;
 }
-
+.post-format-detail {
+	font-size: 14px;
+}
 #homeblog-carousel .blog-carousel-details h2 {
 	font-size:18px;
 	font-weight:600;
@@ -2643,6 +2644,38 @@ span.pages {
 
 }
 
+.searchInput {
+	margin-top:2px;
+	width:139px;
+	border:0px;
+	padding-left:10px;
+	height:30px;
+	line-height:30px;
+	background-color: #dddddd;
+	font-size:14px;
+	font-family: '微软雅黑','Microsoft Yahei'，Verdana;
+}
+
+.SearchGlobe{
+	position:relative;
+	float:right;
+	margin-top:6px;
+	color: #22607b;
+	font-family: '微软雅黑','Microsoft Yahei'，Verdana;
+}
+
+.SearchButton {
+	clear:both;
+	float:right;
+	height:30px;
+	width:30px;
+	background-color: #acacac;
+	border:0px;
+	margin-top:2px;
+	line-height:20px;
+	color:white;
+}
+
 #contactform input[type=submit] {
 	font-size:12px;
 	clear:both;
@@ -2683,9 +2716,9 @@ span.pages {
 #footer {
 	overflow:hidden;
 	clear:both;
-	background:#323232;
+	background:#22607b;
 	color:#969595;
-	padding-top:40px;
+	padding-top:10px;
 	margin:0 auto;
 }
 
@@ -2693,7 +2726,38 @@ span.pages {
 	padding:0;
 	margin:0;
 }
-
+.footercontainer{
+	position:relative;
+	text-align:center;
+	height:100%;
+	color:white;
+	font-family: '微软雅黑','Microsoft Yahei'，Verdana;
+	font-size: 14px;
+	line-height: 30px;
+}
+.footerItem {
+	margin-top:20px;
+	float:left;
+	width:25%;
+}
+.footerItemCode{
+	float:left;
+	width:25%;
+}
+.footerItemCode img {
+	width:30%;
+	height: auto;
+	margin-top:10px;
+}
+.footerItemFA {
+	margin-right:20%;
+}
+.footerItemTel{
+	font-size:15px;
+	margin-top:-40px;
+	margin-left:85px;
+	position:relative;
+}
 #topfooter h6 {
 	margin:0;
 	font-size:12px;
@@ -2778,7 +2842,7 @@ li.email {
 	position:relative;
 	overflow:hidden;
 	clear:both;
-	margin-top:40px;
+	margin-top:5px;
 	background:#252525;
 }
 
@@ -3645,4 +3709,70 @@ ul.customlist li i {
 .over {
 	background: #f7f7f7;
 	color:#444;
+}
+
+
+
+
+.newsblock{
+	width:100%;
+	position:relative;
+	font: 15px '微软雅黑','Microsoft Yahei',Verdana,'Open Sans', Open Sans, Helvetica, Arial, sans-serif;
+}
+
+.newsCompany {
+	width:50%;
+	float:left;
+}
+.newsHangye {
+	width:50%;
+	float:right;
+}
+.newsContainer label {
+	font-weight: bold;
+	font-size:16px;
+}
+.newsContent {
+	color:black;
+	display:inline;
+	word-wrap:break-word;word-break:break-all;
+}
+.newsContentImage{
+	float:left;
+	margin-top:10px;
+}
+.newsContent img {
+	width:140px;
+	height:88px;
+}
+.newsContentText {
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	width:380px;
+}
+.newsContentText strong {
+	font-weight:bold;
+}
+.newsContentText p {
+	margin:0;
+}
+.newsHangyeImage img {
+	margin-top:10px;
+	width:100%;
+	height:150px;
+}
+.newsHangyeText {
+	margin-top:10px;
+	width:100%;
+}
+.newsContentMore {
+	float:right;
+	color:black;
+	margin-top:10px;
+}
+.newsContentMore1 {
+	float:right;
+	margin-top:15px;
+	margin-right:38px;
 }

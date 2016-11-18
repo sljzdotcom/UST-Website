@@ -15,11 +15,11 @@
 	
 	<!-- color scheme -->
 	<link rel="stylesheet" type="text/css" href="css/color-schemes/red/red.css" media="screen" title="red" />
-	<link rel="stylesheet" type="text/css" href="css/color-schemes/yellow/yellow.css" media="screen" title="yellow" />
+<!--	<link rel="stylesheet" type="text/css" href="css/color-schemes/yellow/yellow.css" media="screen" title="yellow" />
 	<link rel="stylesheet" type="text/css" href="css/color-schemes/orange/orange.css" media="screen" title="orange" />
 	<link rel="stylesheet" type="text/css" href="css/color-schemes/blue/blue.css" media="screen" title="blue" />
 	<link rel="stylesheet" type="text/css" href="css/color-schemes/green/green.css" media="screen" title="green" />
-	<link rel="stylesheet" type="text/css" href="css/color-schemes/purple/purple.css" media="screen" title="purple" />
+	<link rel="stylesheet" type="text/css" href="css/color-schemes/purple/purple.css" media="screen" title="purple" />-->
 	
 	<!--miscellaneous-->
 	<link rel="stylesheet" type="text/css" href="css/superfish.css" media="screen">
@@ -61,54 +61,51 @@
 	
 	<script type="text/javascript" src="js/custom.js"></script>
 	
-	<link rel="stylesheet" type="text/css" href="css/template-changer.css" media="screen"/>
+<!--	<link rel="stylesheet" type="text/css" href="css/template-changer.css" media="screen"/>
 	<script type="text/javascript" src="js/jquery.cookie.js"></script>	
 	<script type="text/javascript" src="js/styleswitch.js"></script>	
 
 
-<script type="text/javascript">
-	$(function()
-		{
-			// Call stylesheet init so that all stylesheet changing functions 
-			// will work.
-			$.stylesheetInit();
-			
-			// This code loops through the stylesheets when you click the link with 
-			// an ID of "toggler" below.
-			$('#toggler').bind(
-				'click',
-				function(e)
-				{
-					$.stylesheetToggle();
-					return false;
-				}
-			);
-			
-			// When one of the styleswitch links is clicked then switch the stylesheet to
-			// the one matching the value of that links rel attribute.
-			$('.styleswitch').bind(
-				'click',
-				function(e)
-				{
-					$.stylesheetSwitch(this.getAttribute('rel'));
-					return false;
-				}
-			);
-		}
-	);
-</script>	
-	
+	<script type="text/javascript">
+		$(function()
+			{
+				// Call stylesheet init so that all stylesheet changing functions
+				// will work.
+				$.stylesheetInit();
+
+				// This code loops through the stylesheets when you click the link with
+				// an ID of "toggler" below.
+				$('#toggler').bind(
+					'click',
+					function(e)
+					{
+						$.stylesheetToggle();
+						return false;
+					}
+				);
+
+				// When one of the styleswitch links is clicked then switch the stylesheet to
+				// the one matching the value of that links rel attribute.
+				$('.styleswitch').bind(
+					'click',
+					function(e)
+					{
+						$.stylesheetSwitch(this.getAttribute('rel'));
+						return false;
+					}
+				);
+			}
+		);
+	</script>-->
+
+
 </head> 
 
-<!--very important: setting a class for homepage -->
+
 <body class="home"> 
 
-<!-- setting a fullscreen image as background:
-<img id="bg" src="images/apple.jpg" alt="apple-background" />
--->
-
-
-	<div class="theme-changer-wrap">
+	<!-- ##########  Theme Change  ########## -->
+	<!--<div class="theme-changer-wrap" style="display:none;">
 		<div class="theme-changer">
 			<div class="changer-inner">				
 				<span> COLOR SCHEME </span>
@@ -119,405 +116,477 @@
 						<li><a href="index.html@style=green" rel="green" class="styleswitch color-green">green</a></li>
 						<li><a href="index.html@style=red" rel="red" class="styleswitch color-red">red</a></li>
 						<li><a href="index.html@style=purple" rel="purple" class="styleswitch color-purple">purple</a></li>
-					
 					</ul>
 					<div style="clear:both; height:10px; width:100%"></div>				
 			</div>
 		</div>
 		<div class="open-close"></div>
-	</div> 	
+	</div>-->
 
-<div id="wrapper">
-	<header id="header">
+	<div id="wrapper">
+
+		<!-- ##########  Header  ########## -->
+		<header id="header">
+			<div class="centered-wrapper">
+				<!-- >>>>>>>>>>>>  Logo  -->
+				<div class="one-sixth">
+					<div class="logo" style="margin-top:12px;"><img src="images/logo4.png" /></div>
+				</div><!--end one-third-->
+
+				<!-- >>>>>>>>>>>>  Menu  -->
+				<div class="two-third">
+					<nav id="navigation">
+						<ul id="mainnav">
+<!--							<li><a href="index.html"><span>主页</span></a>
+								<ul>
+									<li><a class="current" href="#">中文版</a></li>
+									<li><a class="current" href="#">English</a></li>
+								</ul>
+							</li>-->
+							<li><a href="#"><span>关于我们</span></a>
+								<ul>
+									<li><a href="#">品牌介绍</a></li>
+									<li><a href="#">业务范围</a></li>
+
+								</ul>
+							</li>
+							<li><a href="#"><span>产品服务</span></a>
+								<ul>
+									<li><a href="#">IT 基础设施管理服务</a>
+										<ul>
+											<li><a href="#">服务台支持</a></li>
+											<li><a href="#">客户端服务</a></li>
+											<li><a href="#">数据中心服务</a></li>
+											<li><a href="#">基础设施即服务(IAAS)</a></li>
+										</ul>
+									</li>
+									<li><a href="#">应用系统服务</a>
+										<ul>
+											<li><a href="#">应用系统管理服务</a></li>
+											<li><a href="#">应用系统开发和集成服务</a></li>
+											<li><a href="#">软件即服务(SAAS)</a></li>
+										</ul>
+									</li>
+									<li><a href="#">架构建设服务</a>
+										<ul>
+											<li><a href="#">基础设施服务</a></li>
+											<li><a href="#">应用系统服务</a></li>
+											<li><a href="#">IT 治理管控服务</a></li>
+										</ul>
+									</li>
+									<li><a href="#">信息化解决方案</a>
+										<ul>
+											<li><a href="#">IT 基础设施解决方案</a></li>
+											<li><a href="#">商业与技术解决方案</a></li>
+											<li><a href="#">行业 IT 解决方案</a></li>
+											<li><a href="#">医药及医疗行业</a></li>
+											<li><a href="#">零售行业</a></li>
+											<li><a href="#">汽车制造行业</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#"><span>招募成员</span></a>
+								<ul>
+									<li><a href="#">招聘</a>
+										<ul>
+											<li><a href="#">社会招聘</a></li>
+											<li><a href="#">校园招聘</a></li>
+											<li><a href="#">内部竞聘</a></li>
+										</ul>
+									</li>
+									<li><a href="#">人事</a>
+										<ul>
+											<li><a href="#">年会与团建</a></li>
+											<li><a href="#">人事计划</a></li>
+											<li><a href="#">工作环境</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#"><span>新闻动态</span></a>
+								<ul>
+									<li><a href="#">公司动态</a>
+										<ul>
+											<li><a href="#">联合会活动</a></li>
+											<li><a href="#">YB 活动</a></li>
+											<li><a href="#">联合智囊团</a></li>
+											<li><a href="#">管理培训生计划</a></li>
+										</ul>
+									</li>
+									<li><a href="#">行业新闻</a></li>
+								</ul>
+							</li>
+							<li><a href="#"><span>联系我们</span></a>
+								<ul>
+									<li><a href="#">联系方式</a></li>
+									<li><a href="#">留言板</a></li>
+								</ul>
+							</li>
+							<li><a href="#"><span>全球合作伙伴</span></a>
+								<ul>
+									<li><a href="#">成为伙伴</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav><!--end navigation-->
+				</div><!--end two-third-->
+
+				<!-- >>>>>>>>>>>>  Search  -->
+				<div class="one-sixth column-last">
+					<form method="post" action="#" name="cform" id="cform">
+						<div class="SearchGlobe"><span class="fa fa-globe"></span> ENGLISH</div>
+						<label class="sr-only" for="searchInput">Search</label>
+						<input type="search" id="searchInput" placeholder="Search" class="searchInput">
+						<button type="button" class="SearchButton">
+							<span class="fa fa-search"></span>
+						</button>
+					</form>
+				</div>
+				<div class="clear"></div>
+
+			</div><!--end centered-wrapper-->
+		</header>
+		<div class="top-shadow"></div>
+		<!-- ##########  Header  ########## -->
+
+
+		<!-- ##########  Slide  ########## -->
+		<div class="fullwidthbanner-container">
+			<div class="fullwidthbanner">
+				<ul>
+					<!-- THE FIRST SLIDE -->
+					<li data-transition="slidedown" data-slotamount="15" data-masterspeed="300" data-link="#">
+						<img src="images/1.jpg" alt="" />
+						<!--
+						<div class="caption box-slide1 lfl ltl"
+							 data-x="0"
+							 data-y="150"
+							 data-speed="300"
+							 data-start="1000"
+							 data-easing="easeOutExpo"><h2>HEY THERE! WE ARE SYMPATHIQUE</h2><p>This fullwidth slider is a very flexible one, and works with text, images, videos, or all of them in the same slide. Cool!</p></div>
+						-->
+					</li>
+
+					<!-- THE SECOND SLIDE -->
+					<li data-transition="fade" data-slotamount="15" data-masterspeed="300" data-link="#">
+						<!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+						<img src="images/2.jpg" alt="" />
+
+						<!-- THE CAPTIONS IN THIS SLDIE -->
+						<!-- <div class="caption box-slide2 lft ltt"
+							 data-x="770"
+							 data-y="110"
+							 data-speed="300"
+							 data-start="500"
+							 data-easing="easeOutExpo"><h2>JJ ROYAL PROJECT</h2><p>Describing projects it`s so easy. Define a caption, style it as you want and drop in it some content, not any type of content but only awesome content! You can also add HTML code, like buttons:</p><a class="button red" href="#">Find Out More</a></div>
+						-->
+					</li>
+
+					<!-- THE THIRD SLIDE -->
+					<li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-link="#">
+						<img src="images/3.jpg" alt="" />
+
+					<!-- THE FIFTH SLIDE -->
+					<li data-transition="slideright" data-slotamount="15" data-masterspeed="300" data-link="#">
+						<img src="images/4.jpg" alt="" />
+
+						<!--
+						<div class="caption title_text lfl stl"
+							 data-x="0"
+							 data-y="250"
+							 data-speed="300"
+							 data-start="1000"
+							 data-easing="easeOutExpo">CREATE UNLIMITED CAPTIONS</div>
+
+						<div class="caption description_text lfl stl"
+							 data-x="0"
+							 data-y="292"
+							 data-speed="300"
+							 data-start="1300"
+							 data-easing="easeOutExpo">AND STYLE AND ANIMATE THEM INDIVIDUALLY</div>
+						-->
+
+					</li>
+					<!-- THE SIX SLIDE -->
+					<li data-transition="fade" data-slotamount="15" data-masterspeed="300" data-link="#">
+						<img src="images/5.jpg" alt="" />
+						<!--
+						<div class="caption lfl fadeout"
+							 data-x="0"
+							 data-y="40"
+							 data-speed="300"
+							 data-start="500"
+							 data-easing="easeOutExpo"><img src="images/slides/layer1.jpg" alt=""></div>
+
+						<div class="caption lfl fadeout"
+							 data-x="15"
+							 data-y="260"
+							 data-speed="300"
+							 data-start="800"
+							 data-easing="easeOutExpo"><img src="images/slides/layer2.jpg" alt=""></div>
+						<div class="caption lfr fadeout"
+							 data-x="855"
+							 data-y="60"
+							 data-speed="300"
+							 data-start="1100"
+							 data-easing="easeOutExpo"><img src="images/slides/layer4.jpg" alt=""></div>
+
+						<div class="caption lfr fadeout"
+							 data-x="880"
+							 data-y="290"
+							 data-speed="300"
+							 data-start="1400"
+							 data-easing="easeOutExpo"><img src="images/slides/layer5.jpg" alt=""></div>
+						-->
+					</li>
+				</ul>
+				<!--enable slider timer
+					<div class="tp-bannertimer"></div>
+				-->
+			</div>
+			<div class="bottom-shadow"></div>
+		</div><!--end slider-->
+		<!-- ##########  Slide  ########## -->
+
+
+		<!-- ##########  Content  ########## -->
 		<div class="centered-wrapper">
-			<div class="one-third">
-				<div class="logo" style="margin-top:12px;"><img src="images/logo1.png" /></div>
-			</div><!--end one-third-->
-			
-			<div class="two-third column-last">		
-				<nav id="navigation">
-					<ul id="mainnav">
-						<li><a href="index.html"><span>主页</span></a>
-							<ul>
-								<li><a class="current" href="#"><i class="fa fa-language fa-fw" style="margin-right:10px;"></i>中文版</a></li>
-								<li><a class="current" href="#"><i class="fa fa-language fa-fw" style="margin-right:10px;"></i>English</a></li>
-							</ul>
-						</li>
-						<li><a href="#"><span>关于我们</span></a>
-							<ul>
-								<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>品牌介绍</a></li>
-								<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>业务范围</a></li>
-							</ul>
-						</li>
-						<li><a href="#"><span>产品服务</span></a>
-							<ul>								
-								<li><a href="#">IT 基础设施管理服务<i class="fa fa-arrow-right fa-fw" style="margin-left:10px;"></i></a>
-									<ul>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>服务台支持</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>客户端服务</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>数据中心服务</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>基础设施即服务(IAAS)</a></li>
-									</ul>
-								</li>
-								<li><a href="#">应用系统服务<i class="fa fa-arrow-right fa-fw" style="margin-left:10px;"></i></a>
-									<ul>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>应用系统管理服务</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>应用系统开发和集成服务</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>软件即服务(SAAS)</a></li>
-									</ul>
-								</li>
-								<li><a href="#">架构建设服务<i class="fa fa-arrow-right fa-fw" style="margin-left:10px;"></i></a>
-									<ul>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>基础设施服务</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>应用系统服务</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>IT 治理管控服务</a></li>
-									</ul>
-								</li>
-								<li><a href="#">信息化解决方案<i class="fa fa-arrow-right fa-fw" style="margin-left:10px;"></i></a>
-									<ul>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>IT 基础设施解决方案</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>商业与技术解决方案</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>行业 IT 解决方案</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>医药及医疗行业</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>零售行业</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>汽车制造行业</a></li>
-									</ul>
-								</li>
-							</ul>				
-						</li>
-						<li><a href="#"><span>招募成员</span></a>
-							<ul>
-								<li><a href="#">招聘<i class="fa fa-arrow-right fa-fw" style="margin-left:10px;"></i></a>
-									<ul>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>社会招聘</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>校园招聘</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>内部竞聘</a></li>
-									</ul>
-								</li>
-								<li><a href="#">人事<i class="fa fa-arrow-right fa-fw" style="margin-left:10px;"></i></a>
-									<ul>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>年会与团建</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>人事计划</a></li>
-										<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>工作环境</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li><a href="#"><span>最新新闻</span></a>
-							<ul>
-								<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>公司动态</a></li>
-								<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>行业新闻</a></li>
-							</ul>		
-						</li>
-						<li><a href="#"><span>公司动态</span></a>
-							<ul>
-								<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>联合会活动</a></li>
-								<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>YB 活动</a></li>
-								<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>联合智囊团</a></li>
-								<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>管理培训生计划</a></li>
-							</ul>
-						</li>
-						<li><a href="#"><span>联系我们</span></a>
-							<ul>
-								<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>联系方式</a></li>
-								<li><a href="#"><i class="fa fa-arrow-circle-right fa-fw" style="margin-right:10px;"></i>留言板</a></li>
-							</ul>						
-						</li>
-					</ul>
-				</nav><!--end navigation-->
-			</div><!--end two-third-->
-		<div class="clear"></div>			
+
+			<!-- >>>>>>>>>>>>  文化  -->
+			<section class="intro">
+				<h2>聯合服務企業文化</h2>
+				<h5 style="text-align: left;line-height: 26px;">科技，是人类感受社会进步的重要产业，然而是否能将技术与服务进行更深层次的融合，将决定一个组织是否能成为参与主导行业前行的先驱力量。<br />
+					联合服务作为信息产业的新生力量，正波澜不惊的构架起一股强有力的能量，并参与到这样的社会变革历程中。<br />
+					我们秉承热情，承诺，探索，变革的核心理念与指导原则，在不断的积极面对社会发展对企业的冲击与挑战。<br />
+					以大中华区为基础，以员工与客户为源泉，以创建健康企业，输出专业服务与技术为理念，将品牌的建设与企业的生命融为一体，将客户的信息化建设与业务的密切相关性看作我们的使命主线，在一次次里程碑似的变革中，我们总在寻求着自身的突破，由始至终，我们坚定不移的将自身构筑成为战略设计者以及战略实施合作伙伴，并且我们承诺为客户带来价值、为年轻的成员提供发展的平台。</h5>
+			</section>
+			<div class="space"></div>
+
+			<!-- >>>>>>>>>>>>  产品  -->
+			<section>
+				<div class="bgtitle"><h2><i class="fa fa-picture-o fa-fw" style="margin-right:5px;"></i>UST 产品展示</h2></div>
+				<ul id="portfolio-carousel">
+					<li>
+						<a href="images/portfolio/image1.jpg" rel="prettyPhoto[pp_gal]" title="">
+							<span class="item-on-hover"><span class="hover-image"></span></span>
+							<img src="images/portfolio/image1-small.jpg" alt=" " />
+						</a>
+						<div class="portfolio-carousel-details">
+							<h3><a href="#">IT基礎設施管理服務</a></h3>
+							<span>rebranding, printing identity</span>
+						</div>
+					</li>
+
+					<li>
+						<a href="images/portfolio/image2.jpg" rel="prettyPhoto[pp_gal]" title="">
+							<span class="item-on-hover"><span class="hover-link"></span></span>
+							<img src="images/portfolio/image2-small.jpg" alt=" " />
+						</a>
+						<div class="portfolio-carousel-details">
+							<h3><a href="#">應用系統服務</a></h3>
+							<span>web design, programming</span>
+						</div>
+					</li>
+
+					<li>
+						<a href="#" rel="prettyPhoto">
+							<span class="item-on-hover"><span class="hover-video"></span></span>
+							<img src="images/portfolio/image3-small.jpg" alt=" " />
+						</a>
+						<div class="portfolio-carousel-details">
+							<h3><a href="#">架構建設服務</a></h3>
+							<span>business cards, branding</span>
+						</div>
+					</li>
+
+					<li>
+						<a href="images/portfolio/image6.jpg" rel="prettyPhoto[pp_gal]">
+							<span class="item-on-hover"><span class="hover-link"></span></span>
+							<img src="images/portfolio/image6-small.jpg" alt=" " />
+						</a>
+						<div class="portfolio-carousel-details">
+							<h3><a href="#">信息化解決方案</a></h3>
+							<span>urban, photography</span>
+						</div>
+					</li>
+
+					<li>
+						<a href="images/portfolio/image4.jpg" rel="prettyPhoto[pp_gal]" title="">
+							<span class="item-on-hover"><span class="hover-image"></span></span>
+							<img src="images/portfolio/image4-small.jpg" alt=" " />
+						</a>
+						<div class="portfolio-carousel-details">
+							<h3><a href="#">軟件即服務(SAAS)</a></h3>
+							<span>web design, rebranding</span>
+						</div>
+					</li>
+
+				</ul>
+			</section>
+			<div class="space"></div>
+
+			<!-- >>>>>>>>>>>>  招聘  -->
+			<section>
+				<div class="bgtitle"><h2><i class="fa fa-user-circle-o fa-fw" style="margin-right:5px;"></i>UST 招贤纳士</h2></div>
+				<ul id="homeblog-carousel">
+					<li>
+						<a href="#">
+							<span class="item-on-hover"></span>
+							<img src="images/aa4.png" alt="" />
+						</a>
+						<div class="blog-carousel-details">
+							<h2><a href="#">社会招聘</a></h2>
+							<div class="carousel-meta">
+								<span class="post-format"><i class="fa fa-pencil fa-fw"></i></span><span class="details">December 07, 2016 / <a href="#">4 Comments</a></span>
+							</div>
+							<p class="post-format-detail">社会招聘,社会招聘社会招聘社会招聘,,,社会招聘社会招聘社会招聘/.社会招聘社会招聘社会招聘社会招聘社会招聘社会招聘社会招聘</p>
+						</div>
+					</li>
+					<li>
+						<a href="#">
+							<span class="item-on-hover"></span>
+							<img src="images/aa1.jpg" alt="2015年联合汇活动丨“传统与新时代的撞击”圆满落" />
+						</a>
+						<div class="blog-carousel-details">
+							<h2><a href="#">校园招聘</a></h2>
+							<div class="carousel-meta">
+								<span class="post-format"><i class="fa fa-quote-left fa-fw"></i></span><span class="details">December 07, 2012 / <a href="#">4 Comments</a></span>
+							</div>
+							<p class="post-format-detail">校园招聘校园招聘校园招聘校园招聘校园招聘校园招聘校园招聘校园招聘校园招聘潮与商业浪潮带来的挑战与机遇。互联网+时代，创新方法和规则都在改变。</p>
+						</div>
+					</li>
+					<li>
+						<a href="#">
+							<span class="item-on-hover"></span>
+							<img src="images/blog/homeblog-thumbnail1.jpg" alt="LOREM IPSUM DOLOR SIT AMET" />
+						</a>
+						<div class="blog-carousel-details">
+							<h2><a href="#">内部竞聘</a></h2>
+							<div class="carousel-meta">
+								<span class="post-format"><i class="fa fa-video-camera fa-fw"></i></span><span class="details">May 18, 2012 / <a href="#">3 Comments</a></span>
+							</div>
+							<p class="post-format-detail">内部竞聘内部竞聘内部竞聘内部竞聘内部竞聘内部竞聘都是绝佳的体验。9月中旬，已经开始有了初秋的味道，所以这次UST选择去天目湖周边outing，共度两天一夜。</p>
+						</div>
+					</li>
+				</ul>
+			</section>
+			<div class="space"></div>
+
+			<!-- >>>>>>>>>>>>  新闻  -->
+			<section>
+				<div class="bgtitle"><h2><i class="fa fa-newspaper-o fa-fw" style="margin-right:5px;"></i>UST 公司动态</h2></div>
+				<div class="newsblock">
+					<div class="newsCompany">
+						<div class="newsContainer">
+							<label>公司新闻 | Hot News</label>
+							<div class="newsContent">
+								<div class="newsContentImage"><img src="images/aa1.jpg" ></div>
+								<div class="newsContentText">
+									<strong>新闻标题11111</strong>
+									<p>自2008年，聯合服務(香港)有限公司（簡稱UST）限公司绝佳的体验。9月中旬，已经开始有了绝佳的体绝佳的体绝佳的体 </p>
+								</div>
+							</div>
+							<div class="newsContent">
+								<div class="newsContentImage"><img src="images/aa1.jpg" ></div>
+								<div class="newsContentText">
+									<strong>新闻标题11111</strong>
+									<p>自2008年，聯合服務(香港)有限公司（簡稱UST）限公司绝佳的体验。9月中旬，已经开始有了绝佳的体绝佳的体绝佳的体 </p>
+								</div>
+							</div>
+							<div class="newsContent">
+								<div class="newsContentImage"><img src="images/aa1.jpg" ></div>
+								<div class="newsContentText">
+									<strong>新闻标题11111</strong>
+									<p>自2008年，聯合服務(香港)有限公司（簡稱UST）限公司绝佳的体验。9月中旬，已经开始有了绝佳的体绝佳的体绝佳的体 </p>
+								</div>
+							</div>
+							<div class="newsContent">
+								<div class="newsContentMore1" style="float:right;">更多....</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="newsHangye">
+						<div class="newsContainer">
+							<label>行业动态 | Industry Trends</label>
+							<div class="newsContent">
+								<div class="newsHangyeImage"><img src="images/aa1.jpg" ></div>
+								<div class="newsHangyeText">
+									<li>新闻标题11111</li>
+									<li>自2008年，聯合服務(香港)有限公司（簡稱UST）限公司绝佳佳的体 </li>
+									<li>新闻标题11111</li>
+									<li>自2008年，聯合服務(香港)有限公司（簡稱UST）限公司绝佳佳的体 </li>
+									<li>新闻标题11111</li>
+									<li>自2008年，聯合服務(香港)有限公司（簡稱UST）限公司绝佳佳的体 </li>
+								</div>
+							</div>
+							<div class="newsContentMore">更多....</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
 		</div><!--end centered-wrapper-->
-	</header>	
-
-	<div class="top-shadow"></div>
-	<div class="fullwidthbanner-container">
-		<div class="fullwidthbanner">
-			<ul>
-				<!-- THE FIRST SLIDE -->
-				<li data-transition="slidedown" data-slotamount="15" data-masterspeed="300" data-link="#">
-					<img src="images/1.jpg" alt="" />
-					<!--
-					<div class="caption box-slide1 lfl ltl"
-						 data-x="0"
-						 data-y="150"
-						 data-speed="300"
-						 data-start="1000"
-						 data-easing="easeOutExpo"><h2>HEY THERE! WE ARE SYMPATHIQUE</h2><p>This fullwidth slider is a very flexible one, and works with text, images, videos, or all of them in the same slide. Cool!</p></div>
-					-->
-				</li>
-
-				<!-- THE SECOND SLIDE -->
-				<li data-transition="fade" data-slotamount="15" data-masterspeed="300" data-link="#">
-					<!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-					<img src="images/2.jpg" alt="" />
-															
-					<!-- THE CAPTIONS IN THIS SLDIE -->
-					<!-- <div class="caption box-slide2 lft ltt"
-						 data-x="770" 
-						 data-y="110" 
-						 data-speed="300" 
-						 data-start="500" 
-						 data-easing="easeOutExpo"><h2>JJ ROYAL PROJECT</h2><p>Describing projects it`s so easy. Define a caption, style it as you want and drop in it some content, not any type of content but only awesome content! You can also add HTML code, like buttons:</p><a class="button red" href="#">Find Out More</a></div>
-					-->
-				</li>
-				
-				<!-- THE THIRD SLIDE -->
-				<li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-link="#">
-					<img src="images/3.jpg" alt="" />
-
-				<!-- THE FIFTH SLIDE -->
-				<li data-transition="slideright" data-slotamount="15" data-masterspeed="300" data-link="#">
-					<img src="images/4.jpg" alt="" />
-
-					<!--
-					<div class="caption title_text lfl stl"
-						 data-x="0"
-						 data-y="250"
-						 data-speed="300"
-						 data-start="1000"
-						 data-easing="easeOutExpo">CREATE UNLIMITED CAPTIONS</div>
-
-					<div class="caption description_text lfl stl"
-						 data-x="0"
-						 data-y="292"
-						 data-speed="300"
-						 data-start="1300"
-						 data-easing="easeOutExpo">AND STYLE AND ANIMATE THEM INDIVIDUALLY</div>
-					-->
-
-				</li>
-				<!-- THE SIX SLIDE -->
-				<li data-transition="fade" data-slotamount="15" data-masterspeed="300" data-link="#">
-					<img src="images/5.jpg" alt="" />
-					<!--
-					<div class="caption lfl fadeout"  
-						 data-x="0" 
-						 data-y="40" 
-						 data-speed="300" 
-						 data-start="500" 
-						 data-easing="easeOutExpo"><img src="images/slides/layer1.jpg" alt=""></div>
-									
-					<div class="caption lfl fadeout"  
-						 data-x="15" 
-						 data-y="260" 
-						 data-speed="300" 
-						 data-start="800" 
-						 data-easing="easeOutExpo"><img src="images/slides/layer2.jpg" alt=""></div>
-					<div class="caption lfr fadeout"  
-						 data-x="855" 
-						 data-y="60" 
-						 data-speed="300" 
-						 data-start="1100" 
-						 data-easing="easeOutExpo"><img src="images/slides/layer4.jpg" alt=""></div>
-									
-					<div class="caption lfr fadeout"  
-						 data-x="880" 
-						 data-y="290" 
-						 data-speed="300" 
-						 data-start="1400" 
-						 data-easing="easeOutExpo"><img src="images/slides/layer5.jpg" alt=""></div>						 
-					-->
-				</li>
-			</ul>
-			<!--enable slider timer 
-				<div class="tp-bannertimer"></div>
-			-->
-		</div>
-		<div class="bottom-shadow"></div>	
-	</div><!--end slider-->
-	
-	
-	<div class="centered-wrapper">	
-	
-		<section class="intro">
-			<h2>聯合服務(香港)有限公司（簡稱UST）</h2>
-			<h5>聯合服務(香港)有限公司（簡稱UST）致力於整合行業資源向客戶提供全面的IT運維、IT構架管理、行業諮詢、軟件應用等解決方案。</h5>
-		</section>
-	
-		<section>
-
-			<div class="bgtitle"><h2><i class="fa fa-picture-o fa-fw" style="margin-right:5px;"></i>UST 产品展示</h2></div>
-			<ul id="portfolio-carousel">
-				<li>
-					<a href="images/portfolio/image1.jpg" rel="prettyPhoto[pp_gal]" title="">
-						<span class="item-on-hover"><span class="hover-image"></span></span>
-						<img src="images/portfolio/image1-small.jpg" alt=" " />
-					</a>
-					<div class="portfolio-carousel-details">
-						<h3><a href="#">IT基礎設施管理服務</a></h3>
-						<span>rebranding, printing identity</span>
-					</div>
-				</li>
-				
-				<li>
-					<a href="images/portfolio/image2.jpg" rel="prettyPhoto[pp_gal]" title="">
-						<span class="item-on-hover"><span class="hover-link"></span></span>
-						<img src="images/portfolio/image2-small.jpg" alt=" " />
-					</a>
-					<div class="portfolio-carousel-details">
-						<h3><a href="#">應用系統服務</a></h3>
-						<span>web design, programming</span>
-					</div>
-				</li>
-				
-				<li>
-					<a href="#" rel="prettyPhoto">
-						<span class="item-on-hover"><span class="hover-video"></span></span>
-						<img src="images/portfolio/image3-small.jpg" alt=" " />
-					</a>
-					<div class="portfolio-carousel-details">
-						<h3><a href="#">架構建設服務</a></h3>
-						<span>business cards, branding</span>
-					</div>
-				</li>
-				
-				<li>
-					<a href="images/portfolio/image6.jpg" rel="prettyPhoto[pp_gal]">
-						<span class="item-on-hover"><span class="hover-link"></span></span>
-						<img src="images/portfolio/image6-small.jpg" alt=" " />
-					</a>
-					<div class="portfolio-carousel-details">
-						<h3><a href="#">信息化解決方案</a></h3>
-						<span>urban, photography</span>
-					</div>
-				</li>				
-
-				<li>
-					<a href="images/portfolio/image4.jpg" rel="prettyPhoto[pp_gal]" title="">
-						<span class="item-on-hover"><span class="hover-image"></span></span>
-						<img src="images/portfolio/image4-small.jpg" alt=" " />
-					</a>
-					<div class="portfolio-carousel-details">
-						<h3><a href="#">軟件即服務(SAAS)</a></h3>
-						<span>web design, rebranding</span>
-					</div>
-				</li>
-
-			</ul>	
-		</section>		
-		
 		<div class="space"></div>
-		
-		<section>
-			<div class="bgtitle"><h2><i class="fa fa-newspaper-o fa-fw" style="margin-right:5px;"></i>UST 公司热点新闻</h2></div>
-			<ul id="homeblog-carousel">
-				<li>
-					<a href="#">
-						<span class="item-on-hover"></span>
-						<img src="images/aa3.jpg" alt="LOREM IPSUM DOLOR SIT AMET" />
-					</a>
-					<div class="blog-carousel-details">
-						<h2><a href="#">月夕仲秋丨UST祝您中秋节快乐！</a></h2>
-						<div class="carousel-meta">
-							<span class="post-format"><i class="fa fa-pencil fa-fw"></i></span><span class="details">December 07, 2016 / <a href="#">4 Comments</a></span>
-						</div>
-						<p>月圆时分,中秋佳节,晚风紧，薄暮霞光,,明月上三竿,,清秋余晖易逝。,在此中秋佳节来临之际,愿你心情如秋高气爽,祝您中秋节快乐！</p>
-					</div>
-				</li>
-				<li>
-					<a href="#">
-						<span class="item-on-hover"></span>
-						<img src="images/aa1.jpg" alt="2015年联合汇活动丨“传统与新时代的撞击”圆满落" />
-					</a>
-					<div class="blog-carousel-details">
-						<h2><a href="#">2015年联合汇活动丨“传统与新时代的撞击”圆满落幕</a></h2>
-						<div class="carousel-meta">
-							<span class="post-format"><i class="fa fa-quote-left fa-fw"></i></span><span class="details">December 07, 2012 / <a href="#">4 Comments</a></span>
-						</div>
-						<p>2015年9月12日联合汇活动“传统与时代的撞击”在美丽的苏州金鸡湖畔圆满落幕，来自各地的业界精英参加了这次聚会，相信大家已感受到技术浪潮与商业浪潮带来的挑战与机遇。互联网+时代，创新方法和规则都在改变。</p>
-					</div>
-				</li>
-				<li>
-					<a href="#">
-						<span class="item-on-hover"></span>
-						<img src="images/blog/homeblog-thumbnail1.jpg" alt="LOREM IPSUM DOLOR SIT AMET" />
-					</a>
-					<div class="blog-carousel-details">
-						<h2><a href="#">2015年UST OUTING丨天目湖初秋游记...</a></h2>
-						<div class="carousel-meta">
-							<span class="post-format"><i class="fa fa-video-camera fa-fw"></i></span><span class="details">May 18, 2012 / <a href="#">3 Comments</a></span>
-						</div>
-						<p>南山竹海素有“天堂南山、梦幻竹海”的美誉，风起时，碧浪掀天，风止时，幽深渺远。而坐船游天目湖，在山水相依相抱的柔情里，都是绝佳的体验。9月中旬，已经开始有了初秋的味道，所以这次UST选择去天目湖周边outing，共度两天一夜。</p>
-					</div>
-				</li>
-				<li>
-					<a href="#">
-						<span class="item-on-hover"></span>
-						<img src="images/aa2.jpg" alt="LOREM IPSUM DOLOR SIT AMET" />
-					</a>
-					<div class="blog-carousel-details">
-						<h2><a href="#">智囊团旗下分支丨Young Blood精英团培养启动会议后记</a></h2>
-						<div class="carousel-meta">
-							<span class="post-format"><i class="fa fa-pencil fa-fw"></i></span><span class="details">May 18, 2016 / <a href="#">3 Comments</a></span>
-						</div>
-						<p>2015年12月11日，智囊团旗下分支Young Blood精英团活动启动会议于UST上海办公室如期举办，会议初步讨论该团队活动形式和组织频率，并任命管理委员会成员，相信会令UST在下一阶段对外和对内管理建设吸收更专业、更多元化的人才。</p>
-					</div>
-				</li>
-			</ul>	
-		</section>				
-		
-	</div><!--end centered-wrapper-->
-	
-	<div class="space"></div>
+		<!-- ##########  Content  ########## -->
 
-	<footer id="footer">
-		<div class="centered-wrapper">
-			<div id="topfooter">
-				<div class="one-half">
-					<h3>关于 UST</h3>
-					<p>聯合服務(香港)有限公司（簡稱UST）致力於整合行業資源向客戶提供全面的IT運維、IT構架管理、行業諮詢、軟件應用等解決方案。 </p>
-						<div> >>  <a href="#">公司新闻</a></div>
-						<div> >>  <a href="#">公司动态</a></div>
 
-				</div><!--end percent-one-half-->
-				<div class="one-half column-last">
-					<div class="percent-one-half">
-						<h3>招贤纳士</h3>
-							<div> >>  <a href="#">社会招聘</a></div>
-							<div> >>  <a href="#">学校招聘</a></div>
-							<div> >>  <a href="#">内部竞聘</a></div>
-							<div> >>  <a href="#">投递简历</a></div>
+		<!-- ##########  Footer  ########## -->
+		<footer id="footer">
+			<div class="centered-wrapper">
+				<div id="topfooter">
+					<div class="footercontainer">
+						<div class="footerItem">
+							<div class="footerItemFA"><li class="fa fa-volume-control-phone fa-2x"></li></div>
+							<div class="footerItemTel">400-820-5132<br />免费咨询热线</div>
+						</div>
+						<div class="footerItem">
+							<div class="footerItemFA"><li class="fa fa-envelope-open-o fa-2x"></li></div>
+							<div class="footerItemTel">联系电子邮箱<br />aaaaa@aaa.com</div>
+						</div>
+						<div class="footerItem">
+							<div class="footerItemFA"><li class="fa fa-home fa-2x"></li></div>
+							<div class="footerItemTel">UST 官方网站<br />unitedservice.com.hk</div>
+						</div>
+						<div class="footerItemCode">
+							<img src="images/ust2wm.jpg" />
+						</div>
 					</div>
+				</div><!--end topfooter-->
+			</div><!--end centered-wrapper-->
 
-					<div class="percent-one-half column-last">
-						<h3>联系我们</h3>
-						<ul>
-							<li>总部地址: 中國上海市黃浦區馬當路388號<br />SOHO復興廣場A座303室</li>
-							<li>電話: +86 21 6249 2973<br/>
-							E-mail: <a href="mailto:">info_sh@unitedservice.com.hk</a></li>
+			<div id="bottomfooter">
+				<div class="centered-wrapper">
+					<div class="one-half">
+						<p>COPYRIGHT &copy; 2016 - UST | ALL RIGHTS RESERVED</p>
+					</div><!--end one-half-->
+
+					<div class="one-half column-last">
+						<ul id="social">
+							<li><a class="rss" href="#">RSS Feed</a></li>
+							<li><a class="facebook" href="#">Facebook</a></li>
+							<li><a class="twitter" href="#">Twitter</a></li>
+							<li><a class="flickr" href="#">Flickr</a></li>
+							<li><a class="google" href="#">Google</a></li>
+							<li><a class="linkedin" href="#">LinkedIn</a></li>
+							<li><a class="skype" href="#">Skype</a></li>
+							<!-- You can add social icons for forrst, dribbble, vimeo, linkedin and skype. Take the ones you need from the list and paste them above
+								<li><a class="forrst" href="#">Forrst</a></li>
+								<li><a class="dribbble" href="#">Dribbble</a></li>
+								<li><a class="vimeo" href="#">Vimeo</a></li>
+							-->
 						</ul>
 					</div><!--end one-half-->
-				</div><!--end one-half-->
-			</div><!--end topfooter-->
-		</div><!--end centered-wrapper-->
-		
-		<div id="bottomfooter">		
-			<div class="centered-wrapper">		
-				<div class="one-half">
-					<p>COPYRIGHT &copy; 2016 - UST | ALL RIGHTS RESERVED</p>
-				</div><!--end one-half-->
+				</div><!--end centered-wrapper-->
+			</div><!--end bottomfooter-->
+		</footer><!--end footer-->
+		<!-- ##########  Footer  ########## -->
 
-				<div class="one-half column-last">
-					<ul id="social">
-						<li><a class="rss" href="#">RSS Feed</a></li>
-						<li><a class="facebook" href="#">Facebook</a></li>
-						<li><a class="twitter" href="#">Twitter</a></li>
-						<li><a class="flickr" href="#">Flickr</a></li>
-						<li><a class="google" href="#">Google</a></li>
-						<li><a class="linkedin" href="#">LinkedIn</a></li>
-						<li><a class="skype" href="#">Skype</a></li>
-						<!-- You can add social icons for forrst, dribbble, vimeo, linkedin and skype. Take the ones you need from the list and paste them above
-                        	<li><a class="forrst" href="#">Forrst</a></li>
-    						<li><a class="dribbble" href="#">Dribbble</a></li>
-    						<li><a class="vimeo" href="#">Vimeo</a></li>
-                        -->
-					</ul>					
-				</div><!--end one-half-->
-			</div><!--end centered-wrapper-->				
-		</div><!--end bottomfooter-->
-	</footer><!--end footer-->	
-	
-</div><!--end wrapper-->
+
+	</div><!--end wrapper-->
+
 </body> 
 </html>
