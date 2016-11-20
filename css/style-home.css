@@ -3737,23 +3737,13 @@ ul.customlist li i {
 	display:inline;
 	word-wrap:break-word;word-break:break-all;
 }
-.newsContentImage{
-	float:left;
-	margin-top:10px;
-}
-.newsContent img {
-	width:140px;
-	height:88px;
-}
 .newsContentText {
 	float:left;
 	margin-top:10px;
 	margin-left:10px;
 	width:300px;
 }
-.newsContentText strong {
-	font-weight:bold;
-}
+
 .newsContentText p {
 	margin:0;
 }
@@ -3768,11 +3758,26 @@ ul.customlist li i {
 }
 .newsContentMore {
 	float:right;
-	color:black;
-	margin-top:10px;
+	margin-right:20px;
 }
 .newsContentMore1 {
 	float:right;
-	margin-top:15px;
-	margin-right:38px;
+	margin-top:30px;
+	margin-right:20px;
+}
+
+.newsTable {
+	margin-top:10px;
+	width:100%;
+}
+.newsTableTD {
+	width:150px;
+	text-align: left;
+}
+.newsTableTD img {
+	width:140px;
+	height:88px;
+}
+.newsTableTDContent {
+	vertical-align: top;
 }

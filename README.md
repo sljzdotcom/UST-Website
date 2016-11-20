@@ -11,6 +11,8 @@ UST WebSite Source Code
 
 
 ## History
+<br />2016.11.20 Updated:
+> 修复了一点在大显示器和笔记本上显示的错位 BUG
 
 <br />2016.11.18 Updated:
 > 1.	Logo 图片修改成蓝色
