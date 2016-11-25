@@ -11,6 +11,13 @@ UST WebSite Source Code
 
 
 ## History
+<br />2016.11.25 Updated:
+> 1.	index.html 修改了logo图片，去除了<code>中文网</code>
+> 2.	index.html 去除了微信等图片链接，增加了中文、ENGLISH的按钮
+> 3.	增加了[旗下平台]大栏目
+> 4.	增加了[回到顶部]的按钮
+> 5.	增加了产品展示里面的 More..
+
 <br />2016.11.20 Updated:
 > 修复了一点在大显示器和笔记本上显示的错位 BUG
 

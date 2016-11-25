@@ -42,10 +42,18 @@ function show2weima(idname){
         newbox_iestyle();
         window.attachEvent("onscroll",function(){
             newbox_iestyle();
-        })
+        });
         window.attachEvent("onresize",layer_iestyle)
     }
     layer.onclick=function(){newbox.style.display="none";layer.style.display="none";for(var i=0;i<sel.length;i++){
         sel[i].style.visibility="visible";
     }}
 }
+
+$(document).ready(function(){
+
+})
+
+$('#gotop').click(function(){
+    $('html,body').animate({scrollTop:0});
+});

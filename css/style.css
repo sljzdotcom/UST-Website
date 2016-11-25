@@ -338,7 +338,7 @@
 				}
 
 				#header nav a:hover {
-					font-size: 1.1em;
+					/*font-size: 1.1em;*/
 				}
 
 					#header nav a:hover:before {
@@ -377,3 +377,7 @@
 		text-align: center;
 		width: 100%;
 	}
+
+
+	.navText {margin-top:-26%;font-size:0.6em;}
+	.navText1 {margin-top:-26%;font-size:0.5em;}
