@@ -55,5 +55,29 @@ $(document).ready(function(){
 })
 
 $('#gotop').click(function(){
-    $('html,body').animate({scrollTop:0});
+    $('html,body').animate({scrollTop: 0},800);
 });
+
+
+//============  判断页面滚动条所处位置  ============
+function ScollPostion() {
+    var t, l, w, h;
+    if (document.documentElement && document.documentElement.scrollTop) {
+        t = document.documentElement.scrollTop;
+        l = document.documentElement.scrollLeft;
+        w = document.documentElement.scrollWidth;
+        h = document.documentElement.scrollHeight;
+    } else if (document.body) {
+        t = document.body.scrollTop;
+        l = document.body.scrollLeft;
+        w = document.body.scrollWidth;
+        h = document.body.scrollHeight;
+    }
+    return { top: t, left: l, width: w, height: h };
+}
+
+function scrollNext() {
+    var viewH = $(".videocontainer").height();
+    $('html,body').animate({scrollTop: viewH - 86},800);
+    $("#header").css("background-color","rgba(255, 255, 255, 1)");
+}

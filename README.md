@@ -11,6 +11,9 @@ UST WebSite Source Code
 
 
 ## History
+<br />2016.11.28 Updated:
+> 1.	增加了全屏背景视频效果
+
 <br />2016.11.25 Updated:
 > 1.	index.html 修改了logo图片，去除了<code>中文网</code>
 > 2.	index.html 去除了微信等图片链接，增加了中文、ENGLISH的按钮
