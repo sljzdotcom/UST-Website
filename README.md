@@ -3,14 +3,20 @@
 UST WebSite Source Code
 <br />
 
-测试地址：
-<https://sljzdotcom.github.io/UST-WebSite/>
-
+测试地址：<br />
+HK Server（静态页面）: <http://ust.millerpan.pub/><br />
+GitHub（静态页面）: <https://sljzdotcom.github.io/UST-WebSite/> <br />
+阿里云（动态页面）：
 
 > 有任何问题，可以在 [这里](https://github.com/sljzdotcom/UST-WebSite/issues) 留言，或者到 QQ 上留言
 
 
 ## History
+<br />2016.12.21 Updated:
+> 1.	修改了首页的全屏背景视频效果
+> 2.	完成了 [ 关于我们 ] 的所有页面
+> 3.	完成了 [ 产品服务 ] 的所有页面
+
 <br />2016.11.28 Updated:
 > 1.	增加了全屏背景视频效果
 

@@ -459,7 +459,7 @@ blockquote {
 	position:fixed;
 	z-index:4000;
 	background-color: white;
-	background-color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(255, 255, 255, 1);
 	width:100%;
 	height:86px;
 }
@@ -481,6 +481,16 @@ blockquote {
 	height:4px;
 	width:100%;
 	top:176px;
+	left:0;
+	z-index:200;
+	opacity:0.5;
+}
+.bottom-shadow1 {
+	position:absolute;
+	background:url(../images/bottom-shadow.png) repeat-x scroll 0 0;
+	height:4px;
+	width:100%;
+	top:396px;
 	left:0;
 	z-index:200;
 	opacity:0.5;
@@ -732,6 +742,13 @@ ul#mainnav li ul li a:hover, ul#mainnav li ul li ul li a:hover {
 	margin:0 auto;
 }
 
+.contentBlock {
+	margin-top:150px;
+	font: 14px '微软雅黑','Microsoft Yahei',Verdana,'Open Sans', Open Sans, Helvetica, Arial, sans-serif;
+}
+
+
+
 .title-wrapper {
 	width:940px;
 	margin:0 auto;
@@ -740,6 +757,7 @@ ul#mainnav li ul li a:hover, ul#mainnav li ul li ul li a:hover {
 	height:80px;
 	z-index:201;
 	padding:0 45px 0;
+	margin-top:218px;
 	box-shadow: 0 0 5px #555;
 }
 
@@ -755,10 +773,9 @@ ul#mainnav li ul li a:hover, ul#mainnav li ul li ul li a:hover {
 .title-content {
 	width:940px;
 	margin:0 auto;
-	padding-bottom:25px;	
 	border-bottom:1px solid #efefef;
 	position:absolute;
-	top:30px;
+	top:26px;
 }
 
 .page-title {
@@ -768,6 +785,7 @@ ul#mainnav li ul li a:hover, ul#mainnav li ul li ul li a:hover {
 	padding:100px 0 0;
 	position:relative;
 	z-index:1;
+	height:200px;
 }
 
 .page-title .page-background {
@@ -775,20 +793,20 @@ ul#mainnav li ul li a:hover, ul#mainnav li ul li ul li a:hover {
 	position:absolute;
 	top:0;
 	left:0;
-	height:180px;
+	/*height:480px;*/
 	overflow:hidden;
 	z-index:0;
 }
 
 .page-title .page-background .pattern1 {
-	background:url(../images/bg/bg1.png) repeat scroll 0 0;
-	height:180px;
+	background:url(../images/aa4.jpg) repeat scroll 0 0;
+	height:400px;
 }
 
 
 .page-title .page-background .pattern2 {
-	background:url(../images/bg/bg2.png) repeat scroll 0 0;
-	height:180px;
+	background:url(../images/gallery/gallery2.jpg) repeat scroll 0 0;
+	height:400px;
 }
 
 
@@ -847,7 +865,7 @@ ul#mainnav li ul li a:hover, ul#mainnav li ul li ul li a:hover {
 }
 
 .page-title h2 {
-	font-size: 36px;
+	font-size: 30px;
 	line-height:44px;
 	font-weight: 300;
 }
@@ -894,8 +912,20 @@ ul#mainnav li ul li a:hover, ul#mainnav li ul li ul li a:hover {
 	overflow:hidden;
 }
 
+.service-more-title {
+	margin-bottom:20px;
+	font-weight: bold;
+	font-size:16px;
+}
+
 .service-item {
 	overflow:hidden;
+}
+
+.service-item-td {
+	vertical-align: top;
+	line-height:26px;
+	font-size: 15px;
 }
 
 .service-item p {
@@ -3809,7 +3839,7 @@ ul.customlist li i {
 }
 .contentCentainer{
 	position:absolute;
-	top:100%;
+	margin-top:86px;
 	width:100%;
 }
 
