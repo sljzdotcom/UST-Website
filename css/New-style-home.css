@@ -805,20 +805,20 @@ ul#mainnav li ul li a:hover, ul#mainnav li ul li ul li a:hover {
 
 
 .page-title .page-background .pattern2 {
-	background:url(../images/gallery/gallery2.jpg) repeat scroll 0 0;
+	background:url(../images/rslide2.jpg) repeat scroll 0 0;
 	height:400px;
 }
 
 
 .page-title .page-background .pattern3{
-	background:url(../images/bg/bg3.png) repeat scroll 0 0;
-	height:180px;
+	background:url(../images/jobs2.jpg) repeat scroll 0 0;
+	height:400px;
 }
 
 
 .page-title .page-background .pattern4 {
-	background:url(../images/bg/bg4.png) repeat scroll 0 0;
-	height:180px;
+	background:url(../images/contact.jpg) repeat scroll 0 0;
+	height:400px;
 }
 
 
@@ -920,6 +920,11 @@ ul#mainnav li ul li a:hover, ul#mainnav li ul li ul li a:hover {
 
 .service-item {
 	overflow:hidden;
+}
+
+.content-text1 {
+	line-height:24px;
+	font-size:15px;
 }
 
 .service-item-td {

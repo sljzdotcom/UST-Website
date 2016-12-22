@@ -12,6 +12,10 @@ GitHub（静态页面）: <https://sljzdotcom.github.io/UST-WebSite/> <br />
 
 
 ## History
+<br />2016.12.22 Updated:
+> 1.	完成了 [ 招聘 ] 的所有页面
+> 2.	完成了 [ 联系我们 ] 的所有页面
+
 <br />2016.12.21 Updated:
 > 1.	修改了首页的全屏背景视频效果
 > 2.	完成了 [ 关于我们 ] 的所有页面
